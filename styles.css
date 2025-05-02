@@ -50,26 +50,33 @@ a{
 	background-color: azure;
 	width: 168px;
 	height: 712px;
-	gap: 24px;
+	
 }
 
 .side-items nav ul{
 	width: 168px;
-	height: 156px;
+	height: 114px;
 	display: flex;
 	flex-direction: column;
-	gap: 12px;
+	gap: 8px;
+	margin-bottom: 24px;
 }
 
 .side-items nav ul p{
 	color: rgba(0, 0, 0, 0.4);
 	background-color: blueviolet;
 	border-radius: 4px;
-
+	font-size: 16px;
 }
 
 .side-items nav ul li{
 	color: rgba(0, 0, 0, 0.4);
 	background-color: rgb(211, 9, 9);
 	border-radius: 4px;
+
+}
+
+.side-items nav ul li a{
+	color: rgb(255, 255, 255);
+	font-size: 16px;
 }
