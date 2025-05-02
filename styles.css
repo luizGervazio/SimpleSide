@@ -1,0 +1,75 @@
+a{
+	text-decoration: none;
+}
+.side-container{
+	background-color: aqua;
+	display: flex;
+	flex-direction: column;
+	max-width: 200px;
+	height: 100vh;
+	align-items: center;
+}
+
+.side-header{
+	font-family: "Nunito", sans-serif;
+	background-color: beige;
+	margin: 32px 0 32px 24px;
+	display: flex;
+	gap: 8px;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.side-header button{
+	text-align: center;
+	height: 24px;
+	width: 24px;
+	border-radius: 99px;
+	border: 0;
+	background-color: aliceblue;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.side-header h1{
+	display: flex;
+	width: 168px;
+	height: 4vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.side-header h1 span {
+	color: orange;
+}
+
+.side-items nav{
+	display: flex;
+	flex-direction: column;
+	background-color: azure;
+	width: 168px;
+	height: 712px;
+	gap: 24px;
+}
+
+.side-items nav ul{
+	width: 168px;
+	height: 156px;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.side-items nav ul p{
+	color: rgba(0, 0, 0, 0.4);
+	background-color: blueviolet;
+	border-radius: 4px;
+
+}
+
+.side-items nav ul li{
+	color: rgba(0, 0, 0, 0.4);
+	background-color: rgb(211, 9, 9);
+	border-radius: 4px;
+}
